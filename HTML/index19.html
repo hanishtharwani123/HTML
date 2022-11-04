@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function greet(){
+                let name = document.querySelector('#name').value;
+                alert("Hello, " + name);
+            }
+        </script>
+        <title>MY WEBSITE</title>
+    </head>
+    <body>
+        <form onsubmit="greet(); return false">
+            <input id="name" type="text">
+            <input type="submit">
+        </form>
+    </body>
+</html>
